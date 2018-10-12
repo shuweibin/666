@@ -1,0 +1,12 @@
+from turtle import*
+setup(650,350,200,200)
+penup()
+pendown()
+pensize(8)
+pencolor("red")
+seth(60)
+fd(120)
+seth(-60)
+fd(120)
+seth(-180)
+fd(120)

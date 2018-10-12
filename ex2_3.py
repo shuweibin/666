@@ -1,0 +1,18 @@
+from turtle import*
+setup(650,350,200,200)
+penup()
+fd(-250)
+pendown()
+pensize(25)
+seth(-40)
+for i in range(5):
+    pencolor("red")
+    circle(40,80)
+    pencolor("green")
+    circle(-40,80)
+pencolor("blue")
+circle(40,40)
+fd(40)
+pencolor("yellow")
+circle(16,180)
+fd(20)
